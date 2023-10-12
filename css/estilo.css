@@ -20,6 +20,7 @@ div {
 }
 
 header {
+    position: fixed;
     background-image: url('../imagens/lash.jfif');
     background-repeat: no-repeat;
     background-size: 100% 100%;
