@@ -24,25 +24,24 @@ cor-6  =  #005139
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
-html {
-    padding: 5px;
-}
 
 body {
     max-width: 800px;
-    width: 100%;
     margin: auto;
-    padding: 10px 0px;
+    padding: 10px 10px;
     background-color: var(--cor-2);
-    border: 1px solid red;
-    border-radius: 10px;
+    border: 3px solid red;
+    border-radius: 20px;
+}
+
+header {
+    background: black url(../imagens/fio-a-fio.jpg) no-repeat top center;
 }
 
 figure {
-    display: none;
+
     position: fixed;
     contain: content-box;
     padding: 20px;
@@ -60,21 +59,14 @@ button {
     width: 200px;
 }
 
-header {
-    background-size: cover;
-    background: black url(../imagens/fio-a-fio.jpg) no-repeat top center;
-}
 
 footer {
-    width: 100%;
-    position: absolute;
-    left: 0px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px;
     color: white;
     font-size: .7em;
     text-align: center;
-    background-color: black;
-    border-radius: 10px;
-    padding: 5px;
 }
 
 footer>p {
@@ -89,7 +81,7 @@ footer>a {
 
 footer>a:hover {
     color: rgba(255, 255, 255, 0.444);
-    transform: 
+    transition: .5s;
 }
 
 footer>a>img {
