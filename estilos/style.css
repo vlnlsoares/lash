@@ -34,10 +34,19 @@ body {
 }
 
 header {
-    max-width: 900px;
-    background-image: url(../imagens/fio-a-fio.jpg);
+    max-width: 800px;
+    background: url(../imagens/fio-a-fio.jpg) no-repeat;
+    background-size: cover;
     border-radius: 10px;
-    margin: 10px 0px;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    position: relative;
+    text-align: right;
+    top: 20px;
+    right: 10%;
 }
 
 header figure {
@@ -64,33 +73,58 @@ main {
     box-sizing: border-box;
     background: var(--cor-3);
     margin: 0px auto 10px;
-    max-width: 900px;
+    max-width: 800px;
     border-radius: 10px;
     padding: 20px;
     overflow: hidden;
     text-align: center;
 }
 
-main span {
-    display: inline-block;
+main a {
+    color: white;
+    text-decoration: none;
 
+}
+
+main a:hover {
+    color: rgba(255, 255, 255, 0.48);
+    text-decoration: underline;
+}
+
+main span {
+    margin: 0% 10%;
+    display: block;
 }
 
 .imagem {
     width: 300px;
 }
 
+#logo {
+    display: block;
+    width: 30px;
+    margin: 15px auto 5px;
+}
+
+.redes {
+    margin: 0px 15px;
+    display: inline-block;
+}
+
 footer {
     color: white;
+    font-weight: bold;
+    font: bold 1em 'Courier New', Courier, monospace;
+    text-align: center;
     box-sizing: border-box;
     margin: 10px auto 10px;
-    max-width: 900px;
+    max-width: 800px;
     background: var(--cor-6);
     border: 3px solid var(--cor-6);
     border-radius: 10px;
     padding: 5px;
-    text-align: center;
-    font-weight: bold;
+
+
 }
 
 footer a {
