@@ -37,13 +37,13 @@ body {
 }
 
 header {
-    background: black url(../imagens/fio-a-fio.jpg) no-repeat top center;
+    content: "ESTE BLOCO ESTA ME DANDO TRABALHO DEMAIS";
+    height: 400px;
+    display: block;
+    background: url(../imagens/fio-a-fio.jpg) no-repeat top center;
 }
 
 figure {
-
-    position: fixed;
-    contain: content-box;
     padding: 20px;
 }
 
