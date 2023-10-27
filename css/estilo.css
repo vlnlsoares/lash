@@ -30,36 +30,46 @@ cor-6  =  #005139
 body {
     max-width: 800px;
     margin: auto;
-    padding: 10px 10px;
     background-color: var(--cor-2);
     border: 3px solid red;
     border-radius: 20px;
 }
 
 header {
-    content: "ESTE BLOCO ESTA ME DANDO TRABALHO DEMAIS";
     height: 400px;
-    display: block;
     background: url(../imagens/fio-a-fio.jpg) no-repeat top center;
-}
-
-figure {
-    padding: 20px;
+    background-size: cover;
 }
 
 figure>img {
-    width: 100%;
+    width: max-content;
+    height: max-content;
 }
 
 button {
     cursor: pointer;
 }
 
+header>figure>a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: max-content;
+    display: block;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
+
 .imagem {
     width: 200px;
 }
 
+main {
 
+}
 footer {
     background-color: black;
     border-radius: 20px;
