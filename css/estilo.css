@@ -28,74 +28,77 @@ cor-6  =  #005139
 
 
 body {
-    max-width: 800px;
-    margin: auto;
-    background-color: var(--cor-2);
-    border: 3px solid red;
-    border-radius: 20px;
+    background-color: var(--cor-4);
+    box-sizing: border-box;
+    padding: 0px 10px;
 }
 
 header {
-    height: 400px;
-    background: url(../imagens/fio-a-fio.jpg) no-repeat top center;
-    background-size: cover;
+    max-width: 900px;
+    background-image: url(../imagens/fio-a-fio.jpg);
+    border-radius: 10px;
+    margin: 10px 0px;
 }
 
-figure>img {
+header figure {
+    background-color: var(--cor-4);
+    border: 4px solid var(--cor-4);
+    border-radius: 8px;
     width: max-content;
-    height: max-content;
-}
-
-button {
-    cursor: pointer;
-}
-
-header>figure>a {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: fit-content;
-    height: max-content;
-    display: block;
-    background-color: blue;
-    color: white;
-    text-decoration: none;
-}
-
-.imagem {
-    width: 200px;
-}
-
-main {
-
-}
-footer {
-    background-color: black;
-    border-radius: 20px;
-    padding: 5px;
-    color: white;
-    font-size: .7em;
+    overflow: hidden;
     text-align: center;
 }
 
-footer>p {
-    display: inline-block;
-}
-
-footer>a {
+header a {
     color: white;
     text-decoration: none;
-    display: inline-block;
+    font-weight: bold;
+    display: block;
 }
 
-footer>a:hover {
-    color: rgba(255, 255, 255, 0.444);
-    transition: .5s;
+header a:hover {
+    color: rgb(38, 138, 13);
 }
 
-footer>a>img {
-    position: relative;
-    top: 2px;
+main {
+    box-sizing: border-box;
+    background: var(--cor-3);
+    margin: 0px auto 10px;
+    max-width: 900px;
     border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+main span {
+    display: inline-block;
+
+}
+
+.imagem {
+    width: 300px;
+}
+
+footer {
+    color: white;
+    box-sizing: border-box;
+    margin: 10px auto 10px;
+    max-width: 900px;
+    background: var(--cor-6);
+    border: 3px solid var(--cor-6);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.534);
+    text-decoration: underline;
 }
