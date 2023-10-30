@@ -81,11 +81,15 @@ main {
     overflow: hidden;
     text-align: center;
 }
-
+main div {
+    border-radius: 15px;
+ background-color: #6d668f;   
+}
 main a {
+    margin: 8px 3%;
     color: white;
     text-decoration: none;
-
+    display: inline-block;
 }
 
 main a:hover {
@@ -94,7 +98,8 @@ main a:hover {
 }
 
 main span {
-    margin: 0px 10%;
+    margin: auto;
+    width: max-content;
     display: block;
 }
 
